@@ -20,11 +20,6 @@
             <artifactId>spark-core</artifactId>
             <version>2.7.2</version>
         </dependency>
-        <!--<dependency>-->
-        <!--<groupId>com.fasterxml.jackson.module</groupId>-->
-        <!--<artifactId>jackson-module-kotlin</artifactId>-->
-        <!--<version>2.9.4.1</version>-->
-        <!--</dependency>-->
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-stdlib-jdk8</artifactId>
@@ -42,6 +37,14 @@
             <version>1.0.0</version>
         </dependency>
     </dependencies>
+    <developers>
+       <developer>
+          <name>Ralf Ulrich</name>
+          <email>ralf.ulrich@mind-consulting.de</email>
+          <organization>Mind Consulting UG</organization>
+          <organizationUrl>http://mind-consulting.de</organizationUrl>
+      </developer>
+    </developers>
 
     <build>
         <plugins>
